@@ -29,7 +29,7 @@ public class Triangle
     }
     //******************************************************************
     public boolean isScalene() {
-        if ( (s1 != s2) || (s2 != s3) || (s1 != s3)  ) {
+        if ( (s1 != s2) && (s2 != s3)  && (s1 != s3)  ) {
             isScalene = true;
             System.out.println("The triangle is SCALENE!");
         }

@@ -47,4 +47,16 @@ public class testTriangle {
         Assert.assertTrue("", triangle.isScalene());
     }
 
+    @Test
+    public void scaleneTriTest2(){
+        Triangle triangle = new Triangle(1,2,1);
+        Assert.assertFalse("", triangle.isScalene());
+    }
+
+    @Test
+    public void scaleneTriTest3(){
+        Triangle triangle = new Triangle(1,0,1);
+        Assert.assertFalse("", triangle.isScalene());
+    }
+
 }
