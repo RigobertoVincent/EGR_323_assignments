@@ -47,9 +47,4 @@ public class testTriangle {
         Assert.assertTrue("", triangle.isScalene());
     }
 
-    @Test
-    public void isTriTest(){
-
-    }
-
 }
